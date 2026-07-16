@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Survey Form</title>
+</head>
+
+<body>
+  <h1 id="title">Survey Form </h1>
+  <p id="description">Kindly fill out this survey form. It will take just a few minutes. Thank you!</p>
+  <form id="survey-form">
+    <label for="name" id="name-label">Name:</label>
+    <input type="text" name="name" id="name"  placeholder="Enter your name" required>
+    <label for="email" id="email-label">Email:</label>
+    <input type="email" id="email" placeholder="Enter your email" required>
+    <label for="number" id="number-label">Number:(optional)</label>
+    <input type="number" id="number" min="1" max="5" placeholder="Enter your age">
+    <br></br>
+    <label for="choice">If you would not be what you are, what you would be?</label>
+      <select id="dropdown">
+        <option value="astronaut"> Astronaut</option>
+        <option value="chef"> Chef</option>
+        <option value="makeup artist"> Makeup Artist </option>
+        <option value="None"> None</option>
+    </select>
+    <br></br>
+    <label for="choice">Do you prefer slow learning over fast paced learning and growth?</label>
+    <br></br>
+    <input type="radio" value="yes" name="option">
+    <label for="yes-option">Yes</label>
+    <input type="radio" value="no" name="option">
+    <label for="no-option">No</label>
+    <input type="radio" value="I never thought about it" name="option">
+    <label for="other-option">Go with the flow</label>
+    <br></br>
+    <label for="hobbies">Check your fav hobbies</label>
+    <br></br>
+    <input type="checkbox" id="first-op" value="coloring">
+    <label for="cooking">Coloring </label>
+    <input type="checkbox" id="second-op" value="cooking">
+    <label for="coloring">Cooking</label>
+    <input type="checkbox" id="third-op" value="book reading">
+    <label for="book-reading">Book reading</label>
+    <br></br>
+    <textarea></textarea>
+    <br></br>
+    <button type="submit" id="submit">Submit form</button>
+
+
+
+     
+    </form>
+  </body>
+</html>
